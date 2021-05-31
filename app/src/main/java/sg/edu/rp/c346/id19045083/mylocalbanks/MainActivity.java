@@ -10,6 +10,7 @@ import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
     TextView tvOCBC;
     TextView tvUOB;
     String optionClicked = "";
+    ImageView DBSimg;
+    ImageView OCBCimg;
+    ImageView UOBimg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         registerForContextMenu(tvDBS);
         registerForContextMenu(tvOCBC);
         registerForContextMenu(tvUOB);
+
+        DBSimg = findViewById(R.id.imageViewDBS);
+        OCBCimg = findViewById(R.id.imageViewOCBC);
+        UOBimg = findViewById(R.id.imageViewUOB);
     }
 
 // - - - - - - - - - - - - - - - For translation between English & Chinese - - - - - - - - - - - - - - -
