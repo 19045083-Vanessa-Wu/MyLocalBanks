@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Local Banks</string>
+    <string name="DisplayTextdbs">DBS</string>
+    <string name="DisplayTextocbc">OCBC</string>
+    <string name="DisplayTextuob">UOB</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    <string name="website">Website</string>
+    <string name="contact_the_bank">Contact the bank</string>
+    <string name="translatedText_dbs">星展银行</string>
+    <string name="translatedText_ocbc">华侨银行</string>
+    <string name="translatedText_uob">大华银行</string>
+    <string name="textTranslateError">Translation Error</string>
+    <string name="dbswebsite">https://www.dbs.com.sg</string>
+    <string name="ocbcwebsite">https://www.ocbc.com</string>
+    <string name="uobwebsite">https://www.uob.com.sg</string>
+    <string name="dbsContact">18001111111</string>
+    <string name="ocbcContact">18003633333</string>
+    <string name="uobContact">18002222121</string>
+</resources>
