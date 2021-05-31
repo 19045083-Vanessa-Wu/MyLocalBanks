@@ -17,4 +17,7 @@
     <string name="dbsContact">18001111111</string>
     <string name="ocbcContact">18003633333</string>
     <string name="uobContact">18002222121</string>
+    <string name="imgdbs_description">IMGdbs</string>
+    <string name="imgocbc_description">IMGocbc</string>
+    <string name="imguob_description">IMGuob</string>
 </resources>
